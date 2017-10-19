@@ -1,0 +1,87 @@
+body { font: 13px Open Sans,Microsoft Yahei, Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+h1,h2,h3,h4,h5,h6 {
+  font-family:Open Sans,"Microsoft Yahei", Tahoma, Helvetica, Arial,sans-serif;
+  font-weight: 300;
+}
+.table-responsive table tr th,.table-responsive table tr td{text-align:center;word-break:break-all;}
+td{word-break:break-all;}
+.about_table tr th,.about_table tr td{text-align:center;}
+/*table tr th a.about_edit:hover{color:#5b9bd1;}*/
+.static-info .name{font-size:14px;/*text-align: right;*/}
+.static-info .value{font-size:14px;font-weight:normal;}
+.static-info{margin-bottom:5px;}
+/*.portlet-body .row{margin-bottom:4px;}*/
+.portlet-body .order_mb{margin-bottom:14px;}
+.pagination>li>a, .pagination>li>span{color:#888;}
+.pagination>li>a:hover, .pagination>li>span:hover{color:#888;}
+.new_left{padding-top:8px;}
+.edit_password{padding-top:10px;color:#ff0000;}
+/*.portlet-body .pb{padding-bottom:46px;}*/
+.tabbable-line > .nav-tabs > li.active{  border-bottom: 4px solid #26a69a;}
+.tabbable-line > .nav-tabs > li.active:hover{border-bottom: 4px solid #26a69a;}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover{border-bottom: 4px solid #D2FFD7;}
+/*风险图标样式*/
+.level_safe{color:#26a69a;}
+.level_middle{color:#c49f47;}
+/*支付发货状态*/
+.no_pay,.refund,.no_delivery{background:#c6c6c6;}
+.h_paying{background:#D89903;}
+.frozen{background:#F3565D;}
+.part_pay,.part_delivery{background:#89C4F4;}
+.h_paid,.to_delivery{background:#45B6AF;}
+/*订单状态*/
+.order_open{}/*处理中*/
+.order_holding{color:#D89903;}/*问题单*/
+.order_unpaid{color:#303030;}/*未生成*/
+.order_cancel{color:#7D8181; text-decoration:line-through}/*取消*/
+.order_close{color:#919191;}/*关闭*/
+.portlet.light {background-color: #F9F9F9;}
+.danger_level{color:#F3565D;}
+.btn.btn_none,.btn.btn_none:hover,.btn.btn_none:focus, .btn.btn_none:active{background:none;}
+.btn.btn_none:active:hover, .btn.btn_none.active:hover {background:none;}
+.btn.btn_none{padding:0px 14px;}
+.btn.btn_none:hover{color:#3175af;}
+.status_icons{font-family:"微软雅黑";}
+.about_edit{padding:0px 5px;color:#888;}
+.about_edit:hover{color:#3175af;text-decoration: none;}
+/*搜索按钮样式*/
+.about_search{font-size:14px; color: #FFFFFF; background-color: #26a69a;padding:7px 14px; border:0; outline: none !important;}
+.about_search:hover{background:#1f897f;}
+.about_search:active:hover, .about_search.active:hover {background-color: #1f897f;}
+/**/
+.checkbox-inline+.radio-inline-ml, .radio-inline+.radio-inline-ml{margin-left:27px;}
+.table_color .table-striped>tbody>tr:nth-of-type(odd) {background-color: #fff;}
+.table_color .table-striped>tbody>tr:hover {background:none;}
+
+.o_screening{border:1px solid #ddd;line-height:28px;}
+.portlet > .portlet-title-noborder{border-bottom:none;}
+.form-horizontal .checkbox-pt{padding-top:0px;}
+/*catalog_manage页面*/
+.catalog-breadcrumb{background:none;margin-bottom:0px;padding-top:13px;}
+.catalog-table-group-actions{padding-top:20px;}
+.label_status_icons{border-radius:12px!important;}
+/*role_edit页面*/
+.checkbox-pl{padding-left:0px;}
+
+/*信息提交提示*/
+.alert-succes{  background-color:#D9F2D8;border-color:#B5DBC8;color:#1f897f;}
+/*cms部分*/
+.sidebar-search-wrapper .form_control_color{background:#445367!important;color:#A6B1C0!important;border:1px solid #566371;}
+.news-page-bar{background:none;}
+/*风险等级*/
+.risk_level{color:#fff;padding:0 5px;}
+.risk_low,.risk_middle,.risk_high{background:#F3565D;}
+.risk_danger{background:#dfba49;}
+
+.check_bt{left:-60%;}
+.timeline_mg{ margin-top: 10px;padding:10px 20px 0px 20px;}
+.timeline_pic{  padding-left:19px; margin-bottom: 0px;margin-top: 8px;}
+.timeline_pic img{width:40px;}
+
+/*模态框样式*/
+.form-horizontal .modal-footer-style{margin-bottom:0px;overflow: hidden;padding-top:15px;margin-right:20px;}
+.form-horizontal .m_wrong{padding-top:20px;color:#ff0000;}
+.omit{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+/*目录树样式*/
+.category-tree{border: 1px solid #CCC; padding: 6px 12px 6px 12px ;min-height: 34px; max-height:500px;  overflow-y:auto; }
